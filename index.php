@@ -16,8 +16,22 @@
 <html>
     <head>
         <script src="./js/consultaApi.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
     </head>
     <body>
-        <script>consultaAPI(2).then(response=>console.log(response.name));</script>
+        <div class="contenedorPokemones">
+            <h1>
+                <h2>Mis pokemones</h2>
+            </h1>
+            <div>
+                <div id="pokemones">
+
+                </div>
+            </div>
+
+            <div id="detallesPokemon">
+                
+            </div>
+        </div>
     </body>
 </html>
